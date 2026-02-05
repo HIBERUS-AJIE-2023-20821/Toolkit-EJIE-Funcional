@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://team-ejie.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-1975">Subsanación - Proceso del ciudadano</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-1975">TOOL-1975</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-2801]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-2801">Edición de campos de Datos Específicos</a>
+            <span class="subText">
+               Creada: 08/ene/26                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-1975">Subsanación - Proceso del ciudadano</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:a7e6d600-d531-4024-aced-cdc29f9bcafd"
+                id="word_reporter_712020:a7e6d600-d531-4024-aced-cdc29f9bcafd"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aa7e6d600-d531-4024-aced-cdc29f9bcafd">
+                    Ricardo Sáez Martínez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-22272-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-22272-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-11" href="https://team-ejie.atlassian.net/browse/TOOL-1975">
+        Subsanación - Proceso del ciudadano
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-22272-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul>
+	<li>Como: Ciudadano en subsanación</li>
+	<li>Quiero: Editar solo los campos señalados y sus dependientes condicionados</li>
+	<li>Para: Corregir los datos requeridos sin alterar el resto</li>
+</ul>
+
+
+<h3><a name="Descripci%C3%B3n"></a>Descripción</h3>
+
+<p>El paso 2 carga todos los componentes deshabilitados salvo los marcados para subsanar. Si un campo condicionante cambia, se habilitan sus dependientes según reglas. Se guarda borrador y se validan obligatorios antes de avanzar.</p>
+
+<h3><a name="Criteriosdeaceptaci%C3%B3n"></a>Criterios de aceptación</h3>
+
+<ul>
+	<li>Muestra los campos no marcados en solo lectura.</li>
+	<li>Permite editar campos marcados y dependientes condicionados.</li>
+	<li>Bloquea avanzar si un obligatorio marcado no está completo.</li>
+	<li>Muestra validaciones de negocio en campos editables.</li>
+</ul>
+
+
+<h3><a name="CriteriosenGherkin"></a>Criterios en Gherkin</h3>
+
+<ul>
+	<li>Given paso 2 cargado, When abre campos, Then muestra no editables los no marcados.</li>
+	<li>Given campo marcado, When usuario lo edita, Then permite guardar valor.</li>
+	<li>Given campo condicionante modificado, When aplica regla, Then muestra dependientes habilitados.</li>
+	<li>Given obligatorio vacío, When intenta avanzar, Then bloquea avance.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-1975">Subsanación - Proceso del ciudadano</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-1975">TOOL-1975</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-2647]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-2647">Acceso a la subsanación desde Mi Carpeta</a>
+            <span class="subText">
+               Creada: 18/nov/25                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-1975">Subsanación - Proceso del ciudadano</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                id="word_reporter_712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A11434564-cc12-4511-8c67-dd9bf35e4d73">
+                    Antonio Gallego
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-20716-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-20716-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-11" href="https://team-ejie.atlassian.net/browse/TOOL-1975">
+        Subsanación - Proceso del ciudadano
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-20716-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Como ciudadano que ha recibido un requerimiento,<br/>
+quiero acceder al ToolkitBerria desde MiCarpeta,<br/>
+para iniciar el proceso de corrección de datos </p>
+
+
+
+<p><b>Descripción funcional</b></p>
+
+<p>Al igual que el resto de acciones telemáticas el acceso a ToolkitBerria para cumplimentarlas se realiza desde MiCarpeta, que será la aplicación encargada de mostrar el botón de acceso.<br/>
+Este acceso enviará los parámetros necesarios al ToolkitBerria utilizando el proceso de "apilamiento remoto", es decir, se envían las rutas PIF de dos archivos XML donde se ubicarán todos los parámetros necesarios para contextualizar la acción telemática (en este caso, subsanación). Los datos que contendrá dicho archivo serán: procedimiento, acción telemática, expediente, datos de interesados,...</p>
+
+<p>El ToolkitBerria deberá extraer estos parámetros y presentar la acción telemática de subsanación al ciudadano conectado.</p>
+
+<p><b>Criterios de aceptación:</b></p>
+
+<ul>
+	<li>Desde MiCarpeta se accede a ToolkitBerria y se recuperan los datos de los XML recibidos como parámetro</li>
+	<li>Se contextualiza correctamente la subsanación y se presenta la acción telemática con todos los pasos correspondientes.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TOOL-1975]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-1975">Subsanación - Proceso del ciudadano</a>
+            <span class="subText">
+               Creada: 03/jul/25                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                id="word_reporter_712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A11434564-cc12-4511-8c67-dd9bf35e4d73">
+                    Antonio Gallego
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-16048-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Enlaces de incidencias:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-1973">
+                     TOOL-1973                 </a>
+            </td>
+            <td>
+                Incorporar la gestión acción telémati...
+            </td>
+            <td>
+                Tareas por hacer
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-16048-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>🧾 Historia de Usuario Enriquecida</b><br/>
+<b>Título: Subsanación - Proceso del ciudadano</b><br/>
+Como ciudadano que ha recibido un requerimiento de subsanación,<br/>
+quiero acceder desde Mi Carpeta a la solicitud y corregir los datos y documentos indicados por el tramitador,<br/>
+para completar correctamente mi expediente y continuar con la tramitación.</p>
+
+<p><b>✅ Criterios de Aceptación</b></p>
+
+<p><b>Acceso a la subsanación</b></p>
+
+<ul>
+	<li>Al recibir la notificación de requerimiento de subsanación, se activa el botón “Subsanar” en Mi Carpeta.</li>
+	<li>Al pulsarlo, se inicia la acción telemática de subsanación en el Toolkit.</li>
+</ul>
+
+
+<p><b>Recuperación de información</b></p>
+
+<ul>
+	<li>El Toolkit carga la información de subsanación en estado “borrador” generada por el tramitador.</li>
+	<li>Se muestran todos los pasos de la solicitud original.</li>
+</ul>
+
+
+<p><b>Edición de campos</b></p>
+
+<ul>
+	<li>Paso 2 – Datos Específicos:
+	<ul>
+		<li>Todos los componentes se muestran deshabilitados excepto los marcados por el tramitador.</li>
+		<li>Si se modifican campos condicionantes, se habilitan automáticamente los campos dependientes.</li>
+	</ul>
+	</li>
+	<li>Paso 4 – Documentación:
+	<ul>
+		<li>Se pueden añadir documentos nuevos si están condicionados a los datos modificados en el paso 2.</li>
+	</ul>
+	</li>
+	<li>Paso 5 – Declaraciones Responsables:
+	<ul>
+		<li>Se pueden habilitar nuevas declaraciones responsables si están condicionadas a los datos modificados en el paso 2.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p><b>Finalización del proceso</b></p>
+
+<ul>
+	<li>El ciudadano debe firmar y enviar la subsanación una vez completadas las correcciones.</li>
+	<li>El sistema valida que se han subsanado todos los elementos requeridos antes de permitir el envío.</li>
+</ul>
+
+
+<p><b>🛠️ Sugerencia de Tareas</b></p>
+
+<ul>
+	<li>Diseño funcional
+	<ul>
+		<li>Validar con negocio los condicionamientos entre campos, documentos y declaraciones.</li>
+		<li>Definir comportamiento visual para campos habilitados dinámicamente.</li>
+	</ul>
+	</li>
+	<li>Desarrollo
+	<ul>
+		<li>Implementar lógica de recuperación de subsanación en estado borrador.</li>
+		<li>Configurar edición condicional de campos en paso 2.</li>
+		<li>Habilitar carga de documentos y declaraciones condicionadas.</li>
+	</ul>
+	</li>
+	<li>Integración
+	<ul>
+		<li>Conectar con Mi Carpeta para activar el botón “Subsanar” tras la notificación.</li>
+		<li>Integrar firma y envío como cierre del proceso de subsanación.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p><b>QA / Testing</b></p>
+
+<ul>
+	<li>Verificar que solo se pueden editar los campos marcados.</li>
+	<li>Validar habilitación dinámica de campos, documentos y declaraciones.</li>
+	<li>Comprobar que el proceso de firma y envío funciona correctamente.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generado a las Thu Jan 29 16:17:07 UTC 2026 por Antonio Gallego usando JIRA 1001.0.0-SNAPSHOT#100290-rev:dc466d52e813ec0ba7c0613a67dcd59ff7824a7f.
+
+</body>
+</html>

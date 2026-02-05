@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://team-ejie.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-2436">Paso 4 - Documentos Ajustes de configuración</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-2436">TOOL-2436</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-2639]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-2639">Limitar la aportación a un único archivo por tipo de documento</a>
+            <span class="subText">
+               Creada: 17/nov/25                   &nbsp;Actualizada: 26/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-2436">Paso 4 - Documentos Ajustes de configuración</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                id="word_reporter_712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A11434564-cc12-4511-8c67-dd9bf35e4d73">
+                    Antonio Gallego
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-20670-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-20670-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-6" href="https://team-ejie.atlassian.net/browse/TOOL-2436">
+        Paso 4 - Documentos Ajustes de configuración
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-20670-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Como</b> ciudadano que aporta documentación en un trámite,<br/>
+<b>quiero</b> que se limite a un solo documento por cada tipo de documento cuando así lo indique la configuración,<br/>
+<b>para</b> cumplir con las restricciones del procedimiento y evitar errores al subir documentos.</p>
+
+
+
+
+
+<h3><a name="Criteriosdeaceptaci%C3%B3n"></a><b>Criterios de aceptación</b></h3>
+
+<ul>
+	<li>Si la configuración de la acción telemática establece que solo se puede aportar un único documento, el sistema debe impedir añadir más de uno.</li>
+	<li>Esta limitación aplica a todas las variantes de aportación:
+	<ul>
+		<li>Desde PC.</li>
+		<li>Desde Documentos Entregados Anteriormente (DEA).</li>
+		<li>Desde Mis Documentos.</li>
+	</ul>
+	</li>
+	<li>Si ya existe un documento aportado (por cualquier vía), no se podrán subir más documentos para ese tipo.</li>
+	<li>El sistema debe mostrar un mensaje claro al usuario cuando intente añadir un segundo documento.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-2436">Paso 4 - Documentos Ajustes de configuración</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-2436">TOOL-2436</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-2638]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-2638">Visualizar bloque &quot;Otra documentación&quot;</a>
+            <span class="subText">
+               Creada: 17/nov/25                   &nbsp;Actualizada: 26/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-2436">Paso 4 - Documentos Ajustes de configuración</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                id="word_reporter_712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A11434564-cc12-4511-8c67-dd9bf35e4d73">
+                    Antonio Gallego
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-20667-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://team-ejie.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20251117-130953.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-20667-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-6" href="https://team-ejie.atlassian.net/browse/TOOL-2436">
+        Paso 4 - Documentos Ajustes de configuración
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-20667-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Como</b> aplicación,<br/>
+<b>quiero</b> recuperar la configuración del CCP<br/>
+<b>para</b> saber si mostrar o no al ciudadano el bloque de “Otra documentación” en el paso 4.</p>
+
+<p><b>Descripción Funcional</b></p>
+
+<p>En función de cómo esté configurado el “flag” correspondiente en el CCP, el bloque de “otra documentación” se le mostrará o no al ciudadano.</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/20964" alt="image-20251117-130953.png" width="879" style="border: 0px solid black" /></span></p>
+
+
+
+<p><b>Criterios de aceptación:</b></p>
+
+<ul>
+	<li>Si el procedimiento tiene configurado el flag que permite aportar “otros documentos”, el bloque debe visualizarse.</li>
+	<li>Si el flag indica que no se pueden aportar “otros documentos”, el bloque no debe aparecer en la interfaz.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TOOL-2436]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-2436">Paso 4 - Documentos Ajustes de configuración</a>
+            <span class="subText">
+               Creada: 10/oct/25                   &nbsp;Actualizada: 26/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                id="word_reporter_712020:11434564-cc12-4511-8c67-dd9bf35e4d73"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A11434564-cc12-4511-8c67-dd9bf35e4d73">
+                    Antonio Gallego
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-19178-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Name:</b></td>
+                <td id="customfield_10011-19178-value" class="value" bgcolor="#ffffff" width="80%">      Paso 4 - Documentos Ajustes de configuraci&#xF3;n
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19178-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="Resumen%2FObjetivodenegocio"></a>Resumen / Objetivo de negocio</h2>
+
+<p>Permitir que el sistema adapte dinámicamente la gestión y visualización de documentos en el paso 4 según la configuración establecida en el CCP (Catálogo Común de Procedimientos), garantizando que el ciudadano solo pueda aportar documentos conforme a las reglas definidas para cada procedimiento.</p>
+
+<h2><a name="Contexto"></a>Contexto</h2>
+
+<p>En el proceso de tramitación electrónica, el paso 4 - Documentos debe comportarse de forma flexible según las reglas de negocio configuradas en el CCP para cada procedimiento. Esta épica aborda dos aspectos críticos:</p>
+
+<ol>
+	<li><b>Limitación de unicidad de documento</b>: Controlar que solo se pueda aportar un único documento por tipo cuando así esté configurado, independientemente del origen (PC, Documentos Entregados Anteriormente o Mis Documentos).</li>
+	<li><b>Visualización condicional de "Otros Documentos"</b>: Mostrar u ocultar la sección de "Otros Documentos" según lo permita la configuración del procedimiento.</li>
+</ol>
+
+
+<h2><a name="%E2%9C%85Criteriosdeaceptaci%C3%B3n"></a>✅ Criterios de aceptación</h2>
+
+<ul>
+	<li>Si sólo se puede incluir un único documento, da igual el tipo de aportación que se utilice, sólo se puede aportar un documento.</li>
+	<li>Si el CCP indica que no se pueden adjuntar “Otros Documentos”, esta opción no debe mostrarse al ciudadano en el paso 4.</li>
+	<li>El frontend debe adaptar dinámicamente el contenido del paso 4 según la configuración recibida</li>
+	<li>Criterios de <a href="https://team-ejie.atlassian.net/browse/TOOL-1803" title="smart-link" class="external-link" rel="nofollow noreferrer">https://team-ejie.atlassian.net/browse/TOOL-1803</a> en la historia</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-2436">Paso 4 - Documentos Ajustes de configuración</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-2436">TOOL-2436</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-1803]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-1803">Paso 4- Visualización de formatos específicos por tipo de documento </a>
+            <span class="subText">
+               Creada: 11/jun/25                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-2436">Paso 4 - Documentos Ajustes de configuración</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:a7e6d600-d531-4024-aced-cdc29f9bcafd"
+                id="word_reporter_712020:a7e6d600-d531-4024-aced-cdc29f9bcafd"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aa7e6d600-d531-4024-aced-cdc29f9bcafd">
+                    Ricardo Sáez Martínez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-15087-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3, Back, Front, Hito4                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconocido
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Tiempo empleado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconocido
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Estimación original:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconocido
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Enlaces de incidencias:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-1549">
+                     TOOL-1549                 </a>
+            </td>
+            <td>
+                Paso 4- Formatos de Documentos general
+            </td>
+            <td>
+                Finalizada
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Subtareas:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Clave</b><br/>
+                </td>
+                <td>
+                    <b>Resumen</b><br/>
+                </td>
+                <td>
+                    <b>Tipo</b><br/>
+                </td>
+                <td>
+                    <b>Estado</b><br/>
+                </td>
+                <td>
+                    <b>Persona asignada</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://team-ejie.atlassian.net/browse/TOOL-1575">TOOL-1575</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://team-ejie.atlassian.net/browse/TOOL-1575">Comprobar si el documento que el ciud...</a>
+                    </td>
+                    <td>
+                        Subtarea
+                    </td>
+                    <td>
+                        Awaiting approval
+                    </td>
+                    <td>
+                                                     Sergio Carvalho Sousa Costa  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-15087-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-6" href="https://team-ejie.atlassian.net/browse/TOOL-2436">
+        Paso 4 - Documentos Ajustes de configuración
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-15087-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Objetivo:</b></p>
+
+<p>Como ciudadano, quiero conocer los formatos específicos permitidos para cada tipo de documento requerido en el paso 4 del formulario, para poder subir los archivos con la extensión correcta y evitar errores en el proceso.</p>
+
+<p><b>🧩 Descripción funcional</b></p>
+
+<p>Actualmente, en la <a href="https://team-ejie.atlassian.net/browse/TOOL-1549" title="smart-link" class="external-link" rel="nofollow noreferrer">https://team-ejie.atlassian.net/browse/TOOL-1549</a> se ha implementado la visualización de formatos generales permitidos para subir documentos. Sin embargo, algunos documentos requieren formatos específicos que deben ser informados al ciudadano.</p>
+
+<p>Esta información se encuentra en el CCP y debe incorporarse tanto visualmente en el slot correspondiente al tipo de documento como en las validaciones necesarias para permitir solo la incorporación de dichos formatos(extensiones) de documentos</p>
+
+<p><b>🔌 Integraciones técnicas necesarias</b></p>
+
+<p>Origen de datos:</p>
+
+<ul>
+	<li>Endpoints CCP (se debe tener en cuenta acción telemática e instancia cuando exista):
+	<ul>
+		<li>GET /ccp/v1/procedimientos/
+{procedureName}/accion/{actionId}/documentos/tipo/{innerdocument}<br/>
+*** reemplazado por /api/v1/documentos/busqueda?procedimiento={procedureName}
+<p>&amp;acciontelematica=</p>
+{actionId}&amp;tipo={innerdocument}<br/>
+** GET /ccp/v1/procedimientos/{procedimiento}/accion/{acciontelematica}/instancia/{instancia}/documentos/tipo/{tipodocumento}<br/>
+*** reemplazado por/api/v1/documentos/busqueda?procedimiento={procedureName}&amp;acciontelematica={actionId}
+<p>&amp;instancia=</p>
+{instancia}
+<p>&amp;tipo=</p>
+{innerdocument}</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p>Consumo en AE50D:</p>
+
+<ul>
+	<li>Endpoint a revisar (en principio ya tiene incluida la info en la respuesta, pero habra que confirmar que es la información necesaria):
+	<ul>
+		<li>GET /v1/request/
+{requestId}/required-documents<br/>
+<br/>
+Se debe extender la respuesta para incluir los formatos específicos por tipo de documento.<br/>
+<br/>
+<b>✅ Criterios de aceptación</b><br/>
+<br/>
+* El ciudadano debe ver los formatos específicos permitidos para cada documento requerido, si aplica.<br/>
+* Si un documento no tiene formatos específicos, no se muestra la información en el slot del tipo de documento<br/>
+* El sistema debe realizar la llamada al endpoint del CCP para obtener los formatos específicos por tipo de documento.<br/>
+* La respuesta del endpoint GET /v1/request/{requestId}
+<p>/required-documents debe incluir un nuevo campo (por ejemplo, allowedFormats) con los formatos específicos por documento.</p></li>
+	</ul>
+	</li>
+	<li>Se deben validar los casos con y sin formatos específicos, asegurando que la información se muestra correctamente en el frontend.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generado a las Wed Jan 28 13:39:38 UTC 2026 por Antonio Gallego usando JIRA 1001.0.0-SNAPSHOT#100290-rev:89082158a5a17745c83f7e01d368f2c5097e8209.
+
+</body>
+</html>

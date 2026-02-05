@@ -1,0 +1,123 @@
+Presencial de la Ciudadanía - Ciudadano (TOOL-1513) 
+[TOOL-2882] Tramitador: Carga de presolicitud Creada: 21/ene/26  Actualizada: 22/ene/26 Estado:Tareas por hacerProyecto:ToolkitComponentes:Ninguno Versiones afectadas:Ninguno Versiones corregidas:Ninguno Principal:Presencial de la Ciudadanía - Ciudadano
+Tipo: Historia Prioridad: Medium Informador: Ricardo Sáez Martínez Persona asignada: sin asignar Resolución: Sin resolver Votos: 0 Etiquetas: B3 Trabajo restante estimado:Desconocido Tiempo Trabajado:Desconocido Estimación original:Desconocido 
+Epic Link:Presencial de la Ciudadanía - Ciudadano Sprint:
+ Descripción   
+* Como funcionario del sistema tramitador
+* Quiero que el sistema recupere presolicitudes oficiales en lugar de borradores temporales
+* Para garantizar la trazabilidad y cumplir con el proceso formal de gestión de solicitudes
+Descripción
+Con la implementación completa del sistema de presolicitudes, es necesario actualizar el flujo de carga de solicitudes del ciudadano en el tramitador. Actualmente, el sistema https://team-ejie.atlassian.net/browse/TOOL-2614 recupera borradores temporales cuando se accede desde la Bandeja del Tramitador. Con esta historia, se migra el comportamiento para que utilice presolicitudes formales generadas por el ciudadano.
+La presolicitud llega identificada en el XML de apilamiento. El sistema debe validar que corresponde a una presolicitud (no un borrador), recuperar sus datos completos, y crear una nueva solicitud del tramitador con toda la información precargada. Este cambio asegura consistencia en el proceso, mejora la trazabilidad y alinea el flujo del tramitador con la funcionalidad de presolicitudes ya disponible en el sistema.
+Criterios de aceptación
+* El sistema identifica el tipo de solicitud recibida, asegurando que es una presolicitud
+* El sistema valida que el identificador corresponde a una presolicitud existente y accesible
+* El sistema muestra mensaje de error si el identificador no corresponde a una presolicitud válida
+* El sistema crea una nueva solicitud del tramitador con identificador propio (hecho en TOOL-2614 In Progress )
+* El sistema precarga todos los datos, documentos y declaraciones de la presolicitud (hecho en TOOL-2614 In Progress )
+* El sistema bloquea el acceso si el usuario no esta logeado con XLNets (hecho en TOOL-2614 In Progress )
+* El sistema redirige automáticamente a la pantalla "Datos de Registro" tras la carga exitosa (hecho en TOOL-2614 In Progress )
+
+
+
+
+[TOOL-1513] Presencial de la Ciudadanía - Ciudadano Creada: 07/abr/25  Actualizada: 22/ene/26 Estado:Tareas por hacerProyecto:ToolkitComponentes:Ninguno Versiones afectadas:Ninguno Versiones corregidas:Ninguno 
+Tipo: Epic Prioridad: Medium Informador: Javier López-Tello Ruiz (Inactivo) Persona asignada: sin asignar Resolución: Sin resolver Votos: 0 Etiquetas: B3 Trabajo restante estimado:Desconocido Tiempo Trabajado:Desconocido Estimación original:Desconocido 
+Adjuntos: image-20250407-171739.png     Sprint:
+ Descripción   
+Como ciudadano, quiero iniciar una solicitud telemática y poder continuarla presencialmente en un centro de atención, para completar el trámite con la ayuda de un funcionario, asegurando que la información se transfiere correctamente y el proceso se finaliza sin duplicidades.
+Las Solicitudes Presenciales son aquellas que el ciudadano presenta en las oficinas de la Administración rellenando un formulario en papel, o bien registrando la solicitud telemáticamente, pero sin autenticación y por tanto sin posibilidad de firmar electrónicamente para su presentación y registro de manera telemática. En ambos casos, el ciudadano se presenta en las oficinas de la Administración para su tramitación, entregando la solicitud firmada manualmente y los documentos que la acompañan (en el caso de no haberse incorporado en la solicitud telemática). 
+Una vez en las oficinas de la Administración, el funcionario tramitador será el encargado de finalizar el proceso de presentación de dicha solicitud a partir de la presolicitud entregada por el ciudadano, bien en papel o bien a partir de un QR que dará acceso al funcionario a la presolicitud rellenada por el ciudadano. 
+Las solicitudes presenciales de la ciudadanía sólo podrán ser presentadas por el ciudadano para sí mismo o como representante (sin RdA), y tan sólo para personas físicas.
+Existen 3 casuísticas distintas:
+* Caso 1: Entrega impresa. El ciudadano lleva todos los documentos y la solicitud de manera impresa. No procede hacer nada en el sistema
+* Caso 2: Inicia solicitud, rellena datos y documentos, guarda borrador, genera QR.
+* Caso 3: Igual que caso 2, pero entrega también documentos físicos junto con QR.
+El proceso de Presencial Ciudadanía consta de dos subprocesos.
+ 
+Un primer subproceso que realiza el ciudadano y un segundo subproceso que realiza un  tramitador.
+ 
+
+
+
+
+
+Presencial de la Ciudadanía - Ciudadano (TOOL-1513) 
+[TOOL-1503] Presencial Ciudadanía - 1 - Ciudadano Creada: 07/abr/25  Actualizada: 22/ene/26 Estado:Tareas por hacerProyecto:ToolkitComponentes:Ninguno Versiones afectadas:Ninguno Versiones corregidas:Ninguno Principal:Presencial de la Ciudadanía - Ciudadano
+Tipo: Historia Prioridad: Medium Informador: Javier López-Tello Ruiz (Inactivo) Persona asignada: sin asignar Resolución: Sin resolver Votos: 0 Etiquetas: B3, Back, Front Trabajo restante estimado:Desconocido Tiempo Trabajado:Desconocido Estimación original:Desconocido 
+Adjuntos: image-20250205-115816 (f2bd9483-0430-44da-a8d2-9208270e7d53).png     image-20250407-171739.png     Enlaces de incidencias: Clonersclones TOOL-881 Adaptaciones para las entradas no tel... Tareas por hacer Epic Link:Presencial de la Ciudadanía - Ciudadano Sprint:
+ Descripción   
+El proceso de Presencial Ciudadanía consta de dos subprocesos.
+ 
+Un primer subproceso que realiza el ciudadano y un segundo subproceso que realiza un  tramitador.
+ 
+
+1.1.1      Presencial Ciudadanía-Ciudadano
+El subproceso del ciudadano puede presentar 2 posibles casuísticas:
+·   El ciudadano rellena una solicitud y documentos en papel (Caso1) que presentará al Tramitador (Toda esta gestión queda fuera de Toolkit)
+ ·   El ciudadano inicia la solicitud en un ordenador de las oficinas del gobierno Vasco (tipoPresentación=19) que permite rellenar la solicitud y documentos y guardar como presolicitud sin opción de firma ni envío (Caso 2 y 3 del gráfico).
+El orquestador deberá tener en cuenta los siguientes GAPS o excepciones para realizar esta tramitación:
+1.- El ciudadano puede iniciar la solicitud sin autenticarse.
+2.- Se asignará un código de presolicitud al borrador
+3.- En el Paso 6 no se solicitará firmar y enviar, sólo se guardará.
+4.- En el Paso 6 se mostrará el PDF generado que llevará incorporado el QR formado por el código del servicio, los dos dígitos del procedimiento y el identificador de la solicitud, que además se mostrarán debajo del QRCode.
+Ejemplo: 
+CódigoProcedimiento#digitosProcedimientoPlatea-idPresolicitud
+00769#07-91500
+5.- La pantalla de éxito mostrará la opción de descargar la solicitud (el PDF con el QR integrado) y la opción de sólo descargar el QR
+Una vez se persone en las oficinas, el funcionario podrá escanear el QR, recuperar la presolicitud y finalizar el proceso de solicitud.
+
+
+
+
+Presencial de la Ciudadanía - Ciudadano (TOOL-1513) 
+[TOOL-1212] Paso 1 - Presencial Ciudadanía Creada: 19/feb/25  Actualizada: 22/ene/26 Estado:Tareas por hacerProyecto:ToolkitComponentes:Ninguno Versiones afectadas:Ninguno Versiones corregidas:Ninguno Principal:Presencial de la Ciudadanía - Ciudadano
+Tipo: Historia Prioridad: Medium Informador: Javier López-Tello Ruiz (Inactivo) Persona asignada: sin asignar Resolución: Sin resolver Votos: 0 Etiquetas: B3 Trabajo restante estimado:Desconocido Tiempo Trabajado:Desconocido Estimación original:Desconocido 
+Adjuntos: image-20250204-154827.png     Epic Link:Presencial de la Ciudadanía - Ciudadano Sprint:
+ Descripción   
+
+
+
+
+
+Presencial de la Ciudadanía - Ciudadano (TOOL-1513) 
+[TOOL-1148] Presencial Ciudadanía - 2 - Tramitador Creada: 04/feb/25  Actualizada: 21/ene/26  Resuelta: 21/ene/26 Estado:CanceladoProyecto:ToolkitComponentes:Ninguno Versiones afectadas:Ninguno Versiones corregidas:Ninguno Principal:Presencial de la Ciudadanía - Ciudadano
+Tipo: Historia Prioridad: Medium Informador: Javier López-Tello Ruiz (Inactivo) Persona asignada: sin asignar Resolución: Declined Votos: 0 Etiquetas: Front Trabajo restante estimado:Desconocido Tiempo Trabajado:Desconocido Estimación original:Desconocido 
+Adjuntos: image-20250407-172746.png     Epic Link:Presencial de la Ciudadanía - Ciudadano Sprint:
+ Descripción   
+Descripción
+Presencial Ciudadanía - Tramitador
+
+El subproceso del tramitador puede presentar 3 posibles casuísticas:
+ Caso 1: El ciudadano presenta una solicitud y documentos en papel al Tramitador que posteriormente lo tramitará en CDAR (Componente de Distribución de Asientos Registrales) desde donde realizará el registro de la solicitud (o no, si el funcionario ha usado la pantalla intermedia de CDAR), digitalizará los documentos presentados incluyéndolos en Dokusi, y obteniendo los OID's de Dokusi correspondientes. (Toda esta gestión queda fuera de Toolkit)
+·       En este punto, desde CDAR se integrará con el orquestador accediendo con el Tipo presentación:r02d1869618978B004C6E5823C4C682F2C2B681A2E3F(Presencial Ciudadanía)
+·       El proceso del orquestador será como una solicitud telemática pero teniendo en cuanta los siguientes GAPs o excepciones:
+1.- Al tratarse de presencial ciudadanía, en el paso 1 se mostrará el apartado de registro con los datos que provienen de CDAR (se mostrará aunque esté vacío).
+2.- En el paso 4 se mostrará la lista de documentos obtenidos en el registro de CDAR y que forman parte del contexto de la sesión, para que el usuario "tipifique" cada documento.
+3.- En el caso de venir rellenos los datos de registro, se llamará a PPS con el indicador REQUIERE REGISTRO= NO
+4.- La solicitud no requiere firma.
+Caso2
+Caso3
+
+
+
+
+Presencial de la Ciudadanía - Ciudadano (TOOL-1513) 
+[TOOL-1052] Servicio de creación de PDF resumen de solicitud presencial ciudadania (QR) Creada: 02/ene/25  Actualizada: 22/ene/26 Estado:Tareas por hacerProyecto:ToolkitComponentes:Ninguno Versiones afectadas:Ninguno Versiones corregidas:Ninguno Principal:Presencial de la Ciudadanía - Ciudadano
+Tipo: Historia Prioridad: High Informador: Javier López-Tello Ruiz (Inactivo) Persona asignada: sin asignar Resolución: Sin resolver Votos: 0 Etiquetas: B3, Back Trabajo restante estimado:Desconocido Tiempo Trabajado:Desconocido Estimación original:Desconocido 
+Adjuntos: solicitudPresencialCiudadanía.pdf     Enlaces de incidencias: Blocksis blocked by TOOL-530 Servicio de creación de PDF resumen d... Finalizada Epic Link:Presencial de la Ciudadanía - Ciudadano Sprint:
+ Descripción   
+Descripción
+Cuando el campo de la URL: tipoPresentacion=19 (presencial ciudadania), se creará el PDF de solicitud añadiendo el QR de identificación.
+Un ejemplo de cómo se muestra el código QR sería: 
+solicitudPresencialCiudadanía.pdf 
+El servicio para generar el QR es de Dokusi: servicio para generar QRCode
+En el paso 6 se mostrará el PDF generado que llevará incorporado el QR formado por el código del servicio, los dos dígitos del procedimiento y el identificador de la PREsolicitud, que además se mostrarán debajo del QRCode.
+Ejemplo: 
+CódigoProcedimiento#digitosProcedimientoPlatea-idPresolicitud
+00769#07-91500
+
+
+
+
+Generado a las Thu Jan 29 14:19:26 UTC 2026 por Antonio Gallego usando JIRA 1001.0.0-SNAPSHOT#100290-rev:dc466d52e813ec0ba7c0613a67dcd59ff7824a7f. 

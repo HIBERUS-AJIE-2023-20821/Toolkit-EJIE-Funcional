@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://team-ejie.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-1513">TOOL-1513</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-2882]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-2882">Tramitador: Carga de presolicitud</a>
+            <span class="subText">
+               Creada: 21/ene/26                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:a7e6d600-d531-4024-aced-cdc29f9bcafd"
+                id="word_reporter_712020:a7e6d600-d531-4024-aced-cdc29f9bcafd"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aa7e6d600-d531-4024-aced-cdc29f9bcafd">
+                    Ricardo Sáez Martínez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-22947-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-22947-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-7" href="https://team-ejie.atlassian.net/browse/TOOL-1513">
+        Presencial de la Ciudadanía - Ciudadano
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-22947-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul>
+	<li><b>Como</b> funcionario del sistema tramitador</li>
+	<li><b>Quiero</b> que el sistema recupere presolicitudes oficiales en lugar de borradores temporales</li>
+	<li><b>Para</b> garantizar la trazabilidad y cumplir con el proceso formal de gestión de solicitudes</li>
+</ul>
+
+
+<h3><a name="Descripci%C3%B3n"></a>Descripción</h3>
+
+<p>Con la implementación completa del sistema de presolicitudes, es necesario actualizar el flujo de carga de solicitudes del ciudadano en el tramitador. Actualmente, el sistema <a href="https://team-ejie.atlassian.net/browse/TOOL-2614" title="smart-link" class="external-link" rel="nofollow noreferrer">https://team-ejie.atlassian.net/browse/TOOL-2614</a>  recupera borradores temporales cuando se accede desde la Bandeja del Tramitador. Con esta historia, se migra el comportamiento para que utilice presolicitudes formales generadas por el ciudadano.</p>
+
+<p>La presolicitud llega identificada en el XML de apilamiento. El sistema debe validar que corresponde a una presolicitud (no un borrador), recuperar sus datos completos, y crear una nueva solicitud del tramitador con toda la información precargada. Este cambio asegura consistencia en el proceso, mejora la trazabilidad y alinea el flujo del tramitador con la funcionalidad de presolicitudes ya disponible en el sistema.</p>
+
+<h3><a name="Criteriosdeaceptaci%C3%B3n"></a>Criterios de aceptación</h3>
+
+<ul>
+	<li>El sistema <b>identifica</b> el tipo de solicitud recibida, asegurando que es una presolicitud</li>
+	<li>El sistema <b>valida</b> que el identificador corresponde a una presolicitud existente y accesible</li>
+	<li>El sistema <b>muestra</b> mensaje de error si el identificador no corresponde a una presolicitud válida</li>
+	<li>El sistema <b>crea</b> una nueva solicitud del tramitador con identificador propio (hecho en 
+    <span class="jira-issue-macro" data-jira-key="TOOL-2614" >
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-2614" class="jira-issue-macro-key issue-link"  title="Recuperación de la presolicitud del ciudadano" >
+            <img class="icon" src="https://team-ejie.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium" />
+            TOOL-2614
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">In Progress</span>
+            </span>
+)</li>
+	<li>El sistema <b>precarga</b> todos los datos, documentos y declaraciones de la presolicitud (hecho en 
+    <span class="jira-issue-macro" data-jira-key="TOOL-2614" >
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-2614" class="jira-issue-macro-key issue-link"  title="Recuperación de la presolicitud del ciudadano" >
+            <img class="icon" src="https://team-ejie.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium" />
+            TOOL-2614
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">In Progress</span>
+            </span>
+)</li>
+	<li>El sistema <b>bloquea</b> el acceso si el usuario no esta logeado con XLNets (hecho en 
+    <span class="jira-issue-macro" data-jira-key="TOOL-2614" >
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-2614" class="jira-issue-macro-key issue-link"  title="Recuperación de la presolicitud del ciudadano" >
+            <img class="icon" src="https://team-ejie.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium" />
+            TOOL-2614
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">In Progress</span>
+            </span>
+)</li>
+	<li>El sistema <b>redirige</b> automáticamente a la pantalla "Datos de Registro" tras la carga exitosa (hecho en 
+    <span class="jira-issue-macro" data-jira-key="TOOL-2614" >
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-2614" class="jira-issue-macro-key issue-link"  title="Recuperación de la presolicitud del ciudadano" >
+            <img class="icon" src="https://team-ejie.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium" />
+            TOOL-2614
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">In Progress</span>
+            </span>
+)</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TOOL-1513]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a>
+            <span class="subText">
+               Creada: 07/abr/25                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6290b0c3cf01a10069af5110"
+                id="word_reporter_6290b0c3cf01a10069af5110"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=6290b0c3cf01a10069af5110">
+                    Javier López-Tello Ruiz (Inactivo)
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-12388-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://team-ejie.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250407-171739.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-12388-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Como ciudadano, quiero iniciar una solicitud telemática y poder continuarla presencialmente en un centro de atención, para completar el trámite con la ayuda de un funcionario, asegurando que la información se transfiere correctamente y el proceso se finaliza sin duplicidades.</p>
+
+
+
+<p>Las Solicitudes Presenciales son aquellas que el ciudadano presenta en las oficinas de la Administración rellenando un formulario en papel, o bien registrando la solicitud telemáticamente, pero sin autenticación y por tanto sin posibilidad de firmar electrónicamente para su presentación y registro de manera telemática. En ambos casos, el ciudadano se presenta en las oficinas de la Administración para su tramitación, entregando la solicitud firmada manualmente y los documentos que la acompañan (en el caso de no haberse incorporado en la solicitud telemática). </p>
+
+<p>Una vez en las oficinas de la Administración, el funcionario tramitador será el encargado de finalizar el proceso de presentación de dicha solicitud a partir de la presolicitud entregada por el ciudadano, bien en papel o bien a partir de un QR que dará acceso al funcionario a la presolicitud rellenada por el ciudadano. </p>
+
+<p>Las solicitudes presenciales de la ciudadanía sólo podrán ser presentadas por el ciudadano para sí mismo o como representante (sin RdA), y tan sólo para personas físicas.</p>
+
+<p>Existen 3 casuísticas distintas:</p>
+
+<ul>
+	<li>Caso 1: Entrega impresa. El ciudadano lleva todos los documentos y la solicitud de manera impresa. No procede hacer nada en el sistema</li>
+	<li>Caso 2: Inicia solicitud, rellena datos y documentos, guarda borrador, genera QR.</li>
+	<li>Caso 3: Igual que caso 2, pero entrega también documentos físicos junto con QR.</li>
+</ul>
+
+
+
+
+
+
+<p>El proceso de Presencial Ciudadanía consta de dos subprocesos.</p>
+
+<p> </p>
+
+<p>Un primer subproceso que realiza el ciudadano y un segundo subproceso que realiza un  tramitador.</p>
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/12737" alt="image-20250407-171739.png" width="58.33333333333333%" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-1513">TOOL-1513</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-1503]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-1503">Presencial Ciudadanía - 1 - Ciudadano</a>
+            <span class="subText">
+               Creada: 07/abr/25                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6290b0c3cf01a10069af5110"
+                id="word_reporter_6290b0c3cf01a10069af5110"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=6290b0c3cf01a10069af5110">
+                    Javier López-Tello Ruiz (Inactivo)
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-12348-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3, Back, Front                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://team-ejie.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250205-115816 (f2bd9483-0430-44da-a8d2-9208270e7d53).png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://team-ejie.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250407-171739.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Enlaces de incidencias:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Cloners</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                clones
+            </td>
+            <td>
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-881">
+                     TOOL-881                 </a>
+            </td>
+            <td>
+                Adaptaciones para las entradas no tel...
+            </td>
+            <td>
+                Tareas por hacer
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-12348-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-7" href="https://team-ejie.atlassian.net/browse/TOOL-1513">
+        Presencial de la Ciudadanía - Ciudadano
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-12348-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>El proceso de Presencial Ciudadanía consta de dos subprocesos.</p>
+
+<p> </p>
+
+<p>Un primer subproceso que realiza el ciudadano y un segundo subproceso que realiza un  tramitador.</p>
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/12736" alt="image-20250407-171739.png" width="58.33333333333333%" style="border: 0px solid black" /></span></p>
+
+<h3><a name="1.1.1%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0PresencialCiudadan%C3%ADaCiudadano"></a>1.1.1      Presencial Ciudadanía-Ciudadano</h3>
+
+<p>El subproceso del ciudadano puede presentar 2 posibles casuísticas:</p>
+
+<p>·   <b>El ciudadano rellena una solicitud y documentos en papel (Caso1)</b> que presentará al Tramitador (<b><em>Toda esta gestión queda fuera de Toolkit)</em></b></p>
+
+<p> ·   <b>El ciudadano inicia la solicitud en un ordenador de las oficinas del gobierno Vasco (tipoPresentación=19) que permite rellenar la solicitud y documentos y guardar como presolicitud sin opción de firma ni envío (Caso 2 y 3 del gráfico).</b></p>
+
+<p>El orquestador deberá tener en cuenta los siguientes GAPS o excepciones para realizar esta tramitación:</p>
+
+<p>1.- El ciudadano puede iniciar la solicitud sin autenticarse.</p>
+
+<p>2.- Se asignará un código de presolicitud al borrador</p>
+
+<p>3.- En el Paso 6 no se solicitará firmar y enviar, sólo se guardará.</p>
+
+<p>4.- En el Paso 6 se mostrará el PDF generado que llevará incorporado el QR formado por el <b>código del servicio, los dos dígitos del procedimiento y el identificador de la solicitud</b>, que además se mostrarán debajo del QRCode.</p>
+
+<p>Ejemplo: </p>
+
+<p><b>CódigoProcedimiento#digitosProcedimientoPlatea-idPresolicitud</b></p>
+
+<p><b>00769#07-91500</b></p>
+
+<p>5.- La pantalla de éxito mostrará la opción de descargar la solicitud (el PDF con el QR integrado) y la opción de sólo descargar el QR</p>
+
+<p>Una vez se persone en las oficinas, el funcionario podrá escanear el QR, recuperar la presolicitud y finalizar el proceso de solicitud.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-1513">TOOL-1513</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-1212]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-1212">Paso 1 - Presencial Ciudadanía</a>
+            <span class="subText">
+               Creada: 19/feb/25                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6290b0c3cf01a10069af5110"
+                id="word_reporter_6290b0c3cf01a10069af5110"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=6290b0c3cf01a10069af5110">
+                    Javier López-Tello Ruiz (Inactivo)
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-11255-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://team-ejie.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250204-154827.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-11255-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-7" href="https://team-ejie.atlassian.net/browse/TOOL-1513">
+        Presencial de la Ciudadanía - Ciudadano
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-11255-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            
+
+
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/13495" alt="image-20250204-154827.png" height="841" width="723" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-1513">TOOL-1513</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-1148]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-1148">Presencial Ciudadanía - 2  - Tramitador</a>
+            <span class="subText">
+               Creada: 04/feb/25                   &nbsp;Actualizada: 21/ene/26
+
+                                                    &nbsp;Resuelta: 21/ene/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Cancelado</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6290b0c3cf01a10069af5110"
+                id="word_reporter_6290b0c3cf01a10069af5110"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=6290b0c3cf01a10069af5110">
+                    Javier López-Tello Ruiz (Inactivo)
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Declined
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-11191-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Front                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://team-ejie.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250407-172746.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-11191-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-7" href="https://team-ejie.atlassian.net/browse/TOOL-1513">
+        Presencial de la Ciudadanía - Ciudadano
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-11191-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h1><a name="Descripci%C3%B3n"></a>Descripción</h1>
+
+<h3><a name="PresencialCiudadan%C3%ADaTramitador"></a>Presencial Ciudadanía - Tramitador</h3>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/12738" alt="image-20250407-172746.png" height="148" width="425" style="border: 0px solid black" /></span></p>
+
+
+
+<p>El subproceso del tramitador puede presentar 3 posibles casuísticas:</p>
+
+<p> <b>Caso 1: El ciudadano presenta una solicitud y documentos en papel</b> al Tramitador que posteriormente lo tramitará en CDAR (Componente de Distribución de Asientos Registrales) desde donde realizará el registro de la solicitud (o no, si el funcionario ha usado la pantalla intermedia de CDAR), digitalizará los documentos presentados incluyéndolos en Dokusi, y obteniendo los OID’s de Dokusi correspondientes. (Toda esta gestión queda fuera de Toolkit)</p>
+
+<p>·       En este punto, desde CDAR se integrará con el orquestador accediendo con el Tipo presentación:<b>r02d1869618978B004C6E5823C4C682F2C2B681A2E3F</b>(Presencial Ciudadanía)</p>
+
+<p>·       El proceso del orquestador será como una solicitud telemática pero teniendo en cuanta los siguientes GAPs o excepciones:</p>
+
+<p>1.- Al tratarse de presencial ciudadanía, en el paso 1 se mostrará el apartado de registro con los datos que provienen de CDAR (se mostrará aunque esté vacío).</p>
+
+<p>2.- En el paso 4 se mostrará la lista de documentos obtenidos en el registro de CDAR y que forman parte del contexto de la sesión, para que el usuario “tipifique” cada documento.</p>
+
+<p>3.- En el caso de venir rellenos los datos de registro, se llamará a PPS con el indicador REQUIERE REGISTRO= NO</p>
+
+<p>4.- La solicitud no requiere firma.</p>
+
+
+
+<p>Caso2</p>
+
+<p>Caso3</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://team-ejie.atlassian.net/browse/TOOL-1513">TOOL-1513</a>)</span>
+                <h3 class="formtitle"><img src="https://team-ejie.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [TOOL-1052]&nbsp;<a href="https://team-ejie.atlassian.net/browse/TOOL-1052">Servicio de creación de PDF resumen de solicitud presencial ciudadania (QR)</a>
+            <span class="subText">
+               Creada: 02/ene/25                   &nbsp;Actualizada: 22/ene/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/secure/BrowseProject.jspa?id=10003">Toolkit</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Principal:</b></td>
+        <td width="80%"><a href="https://team-ejie.atlassian.net/browse/TOOL-1513">Presencial de la Ciudadanía - Ciudadano</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6290b0c3cf01a10069af5110"
+                id="word_reporter_6290b0c3cf01a10069af5110"
+                href="https://team-ejie.atlassian.net/secure/ViewProfile.jspa?accountId=6290b0c3cf01a10069af5110">
+                    Javier López-Tello Ruiz (Inactivo)
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-11095-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            B3, Back                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://team-ejie.atlassian.net/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Archivo PDF">
+                    solicitudPresencialCiudadanía.pdf &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Enlaces de incidencias:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://team-ejie.atlassian.net/browse/TOOL-530">
+                     TOOL-530                 </a>
+            </td>
+            <td>
+                Servicio de creación de PDF resumen d...
+            </td>
+            <td>
+                Finalizada
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-11095-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-7" href="https://team-ejie.atlassian.net/browse/TOOL-1513">
+        Presencial de la Ciudadanía - Ciudadano
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-11095-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="Descripci%C3%B3n"></a>Descripción</h2>
+
+<p>Cuando el campo de la URL: tipoPresentacion=19 (presencial ciudadania), se creará el PDF de solicitud añadiendo el QR de identificación.</p>
+
+<p><b>Un ejemplo de cómo se muestra el código QR sería:</b> </p>
+
+<p><span class="nobr"><a href="/rest/api/3/attachment/content/11239" title="solicitudPresencialCiudadanía.pdf attached to TOOL-1052" data-attachment-type="file" data-attachment-name="solicitudPresencialCiudadanía.pdf" data-media-services-type="file" data-media-services-id="cd15bde4-b42d-42a3-b09a-d0cd86a8d723" rel="noreferrer">solicitudPresencialCiudadanía.pdf<sup><img class="rendericon" src="/images/icons/link_attachment_7.gif" height="7" width="7" align="absmiddle" alt="" border="0"/></sup></a></span> </p>
+
+<p>El servicio para generar el QR es de Dokusi:<a href="https://urldefense.com/v3/__https:/elkarlan.sharepoint.com/:b:/r/sites/Platea_Toolkit/tecnico/Tecnico/ISW/DSI/Integracion/dokusi/Gu**Aa_Uso_Generaci**An_QR_v4.pdf?csf=1&amp;web=1&amp;e=sfdlzK__;w63Dsw!!PLKYHmADs_c!UHUJJthb-g9iGwtATreKG78si8lG9qAqMjKd3taZ4wm-lmhlqPsgPpnm2Ri9bBfTzSSRzJYFn4QhbZhf_PIU-A$" class="external-link" rel="nofollow noreferrer"> servicio para generar QRCode</a></p>
+
+<p>En el paso 6 se mostrará el PDF generado que llevará incorporado el QR formado por el <b>código del servicio, los dos dígitos del procedimiento y el identificador de la PREsolicitud</b>, que además se mostrarán debajo del QRCode.</p>
+
+<p>Ejemplo: </p>
+
+<p><b>CódigoProcedimiento#digitosProcedimientoPlatea-idPresolicitud</b></p>
+
+<p><b>00769#07-91500</b></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generado a las Thu Jan 29 14:19:26 UTC 2026 por Antonio Gallego usando JIRA 1001.0.0-SNAPSHOT#100290-rev:dc466d52e813ec0ba7c0613a67dcd59ff7824a7f.
+
+</body>
+</html>
