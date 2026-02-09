@@ -9,9 +9,9 @@ El proceso de subsanación se inicia cuando el ciudadano recibe una notificació
 El sistema carga la información de subsanación en estado borrador generada por el tramitador. El paso 2 (datos específicos) se precarga con los datos de la solicitud original, mostrando solo editables los campos específicamente marcados por el tramitador para subsanar. Los campos no marcados se muestran en solo lectura.
 
 Los demás pasos (documentos, declaraciones, autorizaciones, etc.) se cargan según la configuración del CCP (Catálogo de Configuración de Procedimientos) para la acción telemática de subsanación y deben ser completados por el ciudadano. Estos pasos pueden incluir:
+- Autorizaciones de consulta de datos
 - Documentos específicos requeridos para la subsanación
 - Declaraciones responsables necesarias
-- Autorizaciones de consulta de datos
 
 Los campos en el paso 2 pueden tener dependencias: al modificar un campo condicionante marcado para subsanar, se habilitan automáticamente los campos dependientes según las reglas configuradas.
 
