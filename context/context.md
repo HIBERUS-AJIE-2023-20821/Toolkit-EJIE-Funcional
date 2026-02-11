@@ -600,14 +600,14 @@ El sistema gestiona **3 tipos de autorizaciones** para consulta de datos de ciud
    - **SÍ se incluye automáticamente en la solicitud** sin requerir interacción del usuario
    
 2. **Salvo oposición (bajo autorización expresa)**:
-   - Datos cuya consulta está autorizada por defecto
-   - El ciudadano puede oponerse **selectivamente** a cada dato
+   - Autorizaciones cuya consulta está autorizada por defecto
+   - El ciudadano puede oponerse **selectivamente** a cada autorización
    - Si no se opone, la administración puede consultar
    - Si se opone, debe aportar documentación
    
 3. **Únicamente si consiente (bajo consentimiento)**:
-   - Datos que requieren autorización explícita del ciudadano
-   - El ciudadano debe autorizar **selectivamente** cada dato
+   - Autorizaciones que requieren consentimiento explícito del ciudadano
+   - El ciudadano debe autorizar **selectivamente** cada autorización
    - Solo si marca explícitamente, la administración puede consultar
    - Si no autoriza, debe aportar documentación
 
@@ -623,15 +623,15 @@ La pantalla incluye tres niveles de controles interrelacionados:
    - Habilita los bloques de datos y establece selección inicial
 
 2. **Bloque "Datos salvo oposición"** (deshabilitado inicialmente):
-   - Switch general que afecta a todos los datos del bloque
-   - Checkbox individual por cada dato
-   - **Textarea para motivo de oposición** (obligatorio si hay oposición a algún dato)
+   - Switch general que afecta a todas las autorizaciones del bloque
+   - Checkbox individual por cada autorización
+   - **Textarea para motivo de oposición** (obligatorio si hay oposición a alguna autorización)
    - **Comportamiento**: Checkbox marcado = SE OPONE (debe aportar documento)
    - **Comportamiento**: Checkbox desmarcado = NO se opone (autoriza consulta)
 
 3. **Bloque "Datos únicamente si consiente"** (deshabilitado inicialmente):
-   - Switch general que afecta a todos los datos del bloque
-   - Checkbox individual por cada dato
+   - Switch general que afecta a todas las autorizaciones del bloque
+   - Checkbox individual por cada autorización
    - **Comportamiento**: Checkbox marcado = AUTORIZA (puede consultar)
    - **Comportamiento**: Checkbox desmarcado = NO autoriza (debe aportar documento)
 
@@ -646,14 +646,14 @@ La pantalla incluye tres niveles de controles interrelacionados:
 **Validación**: 
 - Es obligatorio responder la pregunta global para continuar
 - Si hay oposición marcada (bloque "salvo oposición"), es obligatorio completar el textarea de motivo
-- El ciudadano puede decidir no autorizar ningún dato si lo desea (tendrá que aportar todos los documentos)
+- El ciudadano puede decidir no autorizar ninguna consulta si lo desea (tendrá que aportar todos los documentos)
 
 **Inclusión en la solicitud**:
 - Las autorizaciones **"por Ley"** se incluyen automáticamente en la solicitud sin interacción del usuario
 - Las autorizaciones **"salvo oposición"** y **"únicamente si consiente"** se incluyen según las decisiones del ciudadano
 - Si hay oposiciones, se incluye el **motivo de la oposición** especificado por el ciudadano
 
-**Impacto en documentos**: Si el ciudadano se opone o no autoriza la consulta de algún dato, los documentos relacionados aparecerán como **obligatorios en el Paso 4 (Documentos)**. Las autorizaciones son en realidad documentos configurados en el CCP.
+**Impacto en documentos**: Si el ciudadano se opone o no concede alguna autorización, los documentos relacionados aparecerán como **obligatorios en el Paso 4 (Documentos)**. Las autorizaciones son en realidad documentos configurados en el CCP.
 
 ### 6.1.2 Presencial Ciudadanía (EPIC-007)
 

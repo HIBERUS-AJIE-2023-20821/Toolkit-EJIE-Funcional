@@ -22,14 +22,14 @@ La pantalla presenta una **pregunta global inicial** que facilita la decisión d
 **Pregunta global**: "¿Autorizas a la Administración a consultar tus datos?" (Radiobutton: Sí / No)
 
 **Bloque 1 - Datos salvo oposición**:
-- Switch general que afecta a todos los datos del bloque
-- Checkbox individual por cada dato que se puede consultar
-- **Textarea para motivo de oposición**: Aparece cuando se marca oposición a cualquier dato (obligatorio)
+- Switch general que afecta a todas las autorizaciones del bloque
+- Checkbox individual por cada autorización que se puede consultar
+- **Textarea para motivo de oposición**: Aparece cuando se marca oposición a cualquier autorización (obligatorio)
 - Comportamiento: Si el usuario NO marca la oposición, la Administración puede consultar
 
 **Bloque 2 - Datos únicamente si consiente**:
-- Switch general que afecta a todos los datos del bloque
-- Checkbox individual por cada dato que requiere autorización expresa
+- Switch general que afecta a todas las autorizaciones del bloque
+- Checkbox individual por cada autorización que requiere consentimiento expreso
 - Comportamiento: Solo si el usuario marca explícitamente, la Administración puede consultar
 
 ### Lógica de interacción
@@ -41,15 +41,15 @@ La pantalla presenta una **pregunta global inicial** que facilita la decisión d
    - Bloque "salvo oposición": TODOS los checkboxes marcados (se opone a todos)
    - Bloque "únicamente si consiente": TODOS los checkboxes desmarcados (no autoriza ninguno)
 4. **Ajuste selectivo**: Una vez habilitados, el ciudadano puede marcar/desmarcar checkboxes individuales
-5. **Motivo de oposición**: Si marca oposición a cualquier dato (bloque 1), aparece un textarea obligatorio para especificar el motivo
+5. **Motivo de oposición**: Si marca oposición a cualquier autorización (bloque 1), aparece un textarea obligatorio para especificar el motivo
 6. **Sincronización automática**: Los radiobuttons globales y switches de bloque se ajustan automáticamente según la selección individual de checkboxes
 
 ### Consecuencias
 - Las **autorizaciones "por Ley"** se incluyen automáticamente en la solicitud sin mostrarlas en pantalla
-- Si el ciudadano se opone o no autoriza la consulta de algún dato (tipos 2 y 3), los documentos relacionados con esos datos aparecerán como **obligatorios en el Paso 4 (Documentos)**
-- Los datos autorizados (tanto "por Ley" como los consentidos) la Administración los consultará directamente sin necesidad de que el ciudadano aporte documentación
+- Si el ciudadano se opone o no concede alguna autorización (tipos 2 y 3), los documentos relacionados aparecerán como **obligatorios en el Paso 4 (Documentos)**
+- Las autorizaciones concedidas (tanto "por Ley" como las consentidas) la Administración las consultará directamente sin necesidad de que el ciudadano aporte documentación
 
 ## Historias relacionadas
 - [US-016](US-016.md) - Presentación y visualización de autorizaciones
-- [US-017](US-017.md) - Gestión de oposiciones y autorizaciones por dato
+- [US-017](US-017.md) - Gestión de oposiciones y autorizaciones por autorización
 - [US-018](US-018.md) - Sincronización, validación y registro de autorizaciones
