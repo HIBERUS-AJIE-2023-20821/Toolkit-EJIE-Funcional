@@ -50,6 +50,7 @@ Para cada historia, se creará un archivo Markdown 'US-XXX en `/historias de usu
 - **Descripción funcional** (pasos / flujo)
 - **Criterios de aceptación** (Formato Gherkin: Given/When/Then) sin incluir ejemplos de datos y de manera simplificada.
 No incluir referencias técnicas.
+No incluir reglas de negocio en las historias.
 
 
 ### 4.4. Preguntas y supuestos
