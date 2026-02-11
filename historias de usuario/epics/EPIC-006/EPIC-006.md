@@ -6,16 +6,52 @@ Permitir que los ciudadanos gestionen las autorizaciones para que la Administrac
 ## Contexto
 La Administración puede consultar datos del ciudadano que ya obran en su poder o en otras administraciones públicas para evitar que tenga que aportar documentación. Sin embargo, el ciudadano tiene derecho a oponerse a esta consulta o a no autorizarla, en cuyo caso deberá aportar la documentación correspondiente.
 
-Existen tres tipos de autorizaciones según su naturaleza jurídica:
-1. **Autorizaciones "por Ley"**: La consulta se realiza por mandato legal sin posibilidad de oposición
-2. **Autorizaciones "salvo oposición" (bajo autorización expresa)**: El ciudadano puede oponerse a la consulta
-3. **Autorizaciones "únicamente si consiente" (bajo consentimiento)**: El ciudadano debe autorizar explícitamente la consulta
+### Tipos de datos según su naturaleza jurídica
 
-El sistema debe informar claramente qué datos se van a consultar, quién los cede, y las consecuencias de oponerse o no autorizar la consulta.
+El CCP configura **3 tipos de autorizaciones** para cada procedimiento:
+
+1. **Datos "por Ley" (mandatorio)**: La Administración puede consultar por mandato legal sin necesidad de autorización del ciudadano. **No se visualizan en la pantalla** pero **sí se incluyen automáticamente en la solicitud**.
+
+2. **Datos "salvo oposición" (bajo autorización expresa)**: Datos cuya consulta está autorizada por defecto, pero el ciudadano puede oponerse selectivamente. **Se visualizan en pantalla** y requieren interacción.
+
+3. **Datos "únicamente si consiente" (bajo consentimiento)**: Datos que requieren autorización explícita del ciudadano para cada uno. **Se visualizan en pantalla** y requieren interacción.
+
+### Funcionamiento de la pantalla
+La pantalla presenta una **pregunta global inicial** que facilita la decisión del ciudadano, seguida de dos bloques donde puede ajustar selectivamente cada dato:
+
+**Pregunta global**: "¿Autorizas a la Administración a consultar tus datos?" (Radiobutton: Sí / No)
+
+**Bloque 1 - Datos salvo oposición**:
+- Switch general que afecta a todos los datos del bloque
+- Checkbox individual por cada dato que se puede consultar
+- **Textarea para motivo de oposición**: Aparece cuando se marca oposición a cualquier dato (obligatorio)
+- Comportamiento: Si el usuario NO marca la oposición, la Administración puede consultar
+
+**Bloque 2 - Datos únicamente si consiente**:
+- Switch general que afecta a todos los datos del bloque
+- Checkbox individual por cada dato que requiere autorización expresa
+- Comportamiento: Solo si el usuario marca explícitamente, la Administración puede consultar
+
+### Lógica de interacción
+1. **Estado inicial**: Ambos bloques aparecen **deshabilitados** hasta que el ciudadano responda a la pregunta global
+2. **Si responde SÍ (global)**: Se habilitan ambos bloques con:
+   - Bloque "salvo oposición": TODOS los checkboxes desmarcados (NO se opone a ninguno)
+   - Bloque "únicamente si consiente": TODOS los checkboxes marcados (autoriza todos)
+3. **Si responde NO (global)**: Se habilitan ambos bloques con:
+   - Bloque "salvo oposición": TODOS los checkboxes marcados (se opone a todos)
+   - Bloque "únicamente si consiente": TODOS los checkboxes desmarcados (no autoriza ninguno)
+4. **Ajuste selectivo**: Una vez habilitados, el ciudadano puede marcar/desmarcar checkboxes individuales
+5. **Motivo de oposición**: Si marca oposición a cualquier dato (bloque 1), aparece un textarea obligatorio para especificar el motivo
+6. **Sincronización automática**: Los radiobuttons globales y switches de bloque se ajustan automáticamente según la selección individual de checkboxes
+
+### Consecuencias
+- Las **autorizaciones "por Ley"** se incluyen automáticamente en la solicitud sin mostrarlas en pantalla
+- Si el ciudadano se opone o no autoriza la consulta de algún dato (tipos 2 y 3), los documentos relacionados con esos datos aparecerán como **obligatorios en el Paso 4 (Documentos)**
+- Los datos autorizados (tanto "por Ley" como los consentidos) la Administración los consultará directamente sin necesidad de que el ciudadano aporte documentación
 
 ## Historias relacionadas
-- [US-016](US-016.md) - Presentación de autorizaciones configuradas
-- [US-017](US-017.md) - Oposición a consulta de datos de la Administración
-- [US-018](US-018.md) - Autorización de consulta de datos tributarios
-- [US-019](US-019.md) - Visualización de documentos cedentes
-- [US-020](US-020.md) - Validación de autorizaciones antes de continuar
+- [US-016](US-016.md) - Presentación inicial y pregunta global de autorizaciones
+- [US-017](US-017.md) - Gestión de oposición selectiva a consulta de datos
+- [US-018](US-018.md) - Gestión de autorización selectiva de datos
+- [US-019](US-019.md) - Visualización de organismos cedentes
+- [US-020](US-020.md) - Sincronización y validación de controles

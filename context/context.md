@@ -589,31 +589,71 @@ Ciudadano (frontend)
 
 ## 6.1 Aspectos funcionales específicos aclarados
 
-### 6.1.1 Autorizaciones (EPIC-006)
+### 6.1.1 Autorizaciones (EPIC-006) - ACTUALIZADO 11/02/2026
 
 El sistema gestiona **3 tipos de autorizaciones** para consulta de datos de ciudadanos por la Administración:
 
 1. **Por Ley (mandatorio)**:
    - El ciudadano NO puede oponerse
-   - La administración está legalmente autorizada a consultar los datos
-   - Se muestra como información no modificable
-   - No tiene opción de selección/deselección
+   - La administración está legalmente autorizada a consultar los datos por mandato legal
+   - **NO se muestra en la pantalla** ya que el ciudadano no tiene opción de intervención
+   - **SÍ se incluye automáticamente en la solicitud** sin requerir interacción del usuario
    
-2. **Salvo oposición (predeterminado)**:
-   - Viene marcada por defecto (ciudadano está autorizado inicialmente)
-   - El ciudadano puede desmarcarla para oponerse a la consulta
-   - Si no desmarca, la administración puede consultar
-   - Opción modificable
+2. **Salvo oposición (bajo autorización expresa)**:
+   - Datos cuya consulta está autorizada por defecto
+   - El ciudadano puede oponerse **selectivamente** a cada dato
+   - Si no se opone, la administración puede consultar
+   - Si se opone, debe aportar documentación
    
-3. **Únicamente si consiente (opcional)**:
-   - Viene desmarcada por defecto (ciudadano NO está autorizado inicialmente)
-   - El ciudadano debe marcar explícitamente para autorizar
-   - Solo si marca, la administración puede consultar
-   - Opción modificable
+3. **Únicamente si consiente (bajo consentimiento)**:
+   - Datos que requieren autorización explícita del ciudadano
+   - El ciudadano debe autorizar **selectivamente** cada dato
+   - Solo si marca explícitamente, la administración puede consultar
+   - Si no autoriza, debe aportar documentación
 
-**Configuración**: Se definen en el CCP (Catálogo de Configuración de Procedimientos) indicando tipo de autorización, descripción y datos que se consultarán.
+**Configuración**: Se definen en el CCP (Catálogo de Configuración de Procedimientos) indicando tipo de autorización, descripción, datos que se consultarán y organismo cedente.
 
-**Presentación**: En el paso 3 - Autorizaciones, el ciudadano visualiza todas las autorizaciones configuradas con su tipo claramente diferenciado.
+**Presentación en pantalla (Paso 3 - Autorizaciones)**:
+
+La pantalla incluye tres niveles de controles interrelacionados:
+
+1. **Pregunta global inicial** (obligatoria):
+   - "¿Autorizas a la Administración a consultar tus datos?" 
+   - Radiobutton con opciones: Sí / No
+   - Habilita los bloques de datos y establece selección inicial
+
+2. **Bloque "Datos salvo oposición"** (deshabilitado inicialmente):
+   - Switch general que afecta a todos los datos del bloque
+   - Checkbox individual por cada dato
+   - **Textarea para motivo de oposición** (obligatorio si hay oposición a algún dato)
+   - **Comportamiento**: Checkbox marcado = SE OPONE (debe aportar documento)
+   - **Comportamiento**: Checkbox desmarcado = NO se opone (autoriza consulta)
+
+3. **Bloque "Datos únicamente si consiente"** (deshabilitado inicialmente):
+   - Switch general que afecta a todos los datos del bloque
+   - Checkbox individual por cada dato
+   - **Comportamiento**: Checkbox marcado = AUTORIZA (puede consultar)
+   - **Comportamiento**: Checkbox desmarcado = NO autoriza (debe aportar documento)
+
+**Lógica de interacción**:
+- Respuesta **SÍ** (global) → Desmarca todos en "salvo oposición" + Marca todos en "únicamente si consiente"
+- Respuesta **NO** (global) → Marca todos en "salvo oposición" + Desmarca todos en "únicamente si consiente" + Muestra textarea de motivo
+- Switches generales pueden marcar/desmarcar todos los checkboxes de su bloque
+- Checkboxes individuales tienen prioridad y pueden modificarse independientemente
+- **Textarea de motivo**: Aparece cuando hay al menos una oposición marcada (obligatorio)
+- La sincronización entre controles es automática y bidireccional
+
+**Validación**: 
+- Es obligatorio responder la pregunta global para continuar
+- Si hay oposición marcada (bloque "salvo oposición"), es obligatorio completar el textarea de motivo
+- El ciudadano puede decidir no autorizar ningún dato si lo desea (tendrá que aportar todos los documentos)
+
+**Inclusión en la solicitud**:
+- Las autorizaciones **"por Ley"** se incluyen automáticamente en la solicitud sin interacción del usuario
+- Las autorizaciones **"salvo oposición"** y **"únicamente si consiente"** se incluyen según las decisiones del ciudadano
+- Si hay oposiciones, se incluye el **motivo de la oposición** especificado por el ciudadano
+
+**Impacto en documentos**: Si el ciudadano se opone o no autoriza la consulta de algún dato, los documentos relacionados aparecerán como **obligatorios en el Paso 4 (Documentos)**. Las autorizaciones son en realidad documentos configurados en el CCP.
 
 ### 6.1.2 Presencial Ciudadanía (EPIC-007)
 
