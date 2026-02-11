@@ -50,8 +50,6 @@ La pantalla presenta una **pregunta global inicial** que facilita la decisión d
 - Los datos autorizados (tanto "por Ley" como los consentidos) la Administración los consultará directamente sin necesidad de que el ciudadano aporte documentación
 
 ## Historias relacionadas
-- [US-016](US-016.md) - Presentación inicial y pregunta global de autorizaciones
-- [US-017](US-017.md) - Gestión de oposición selectiva a consulta de datos
-- [US-018](US-018.md) - Gestión de autorización selectiva de datos
-- [US-019](US-019.md) - Visualización de organismos cedentes
-- [US-020](US-020.md) - Sincronización y validación de controles
+- [US-016](US-016.md) - Presentación y visualización de autorizaciones
+- [US-017](US-017.md) - Gestión de oposiciones y autorizaciones por dato
+- [US-018](US-018.md) - Sincronización, validación y registro de autorizaciones
