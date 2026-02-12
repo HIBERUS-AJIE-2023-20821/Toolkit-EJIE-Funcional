@@ -663,16 +663,27 @@ La pantalla incluye tres niveles de controles interrelacionados:
 - **Tipo de presentación**: tipoPresentación=19 (identificador específico)
 - **Sin autenticación**: El ciudadano NO se autentica electrónicamente
 - **Sin firma electrónica**: No se solicita firma digital
+- **Identificación de interesados**: Introducción **manual mediante formulario**
+- **Sin consulta a registros**: NO se consulta Registro de Interesados (RI) ni Registro de Apoderamientos (RdA)
 - **Configuración**: Habilitación por procedimiento en el CCP
 - **Terminología**: Se denomina "solicitud presencial" (NO "presolicitud")
 
-**Flujo**:
-1. Ciudadano accede sin autenticarse
-2. Cumplimenta formulario completo (pasos 1-5)
-3. Aporta documentos que se almacenan en **Dokusi**
-4. Sistema NO solicita firma
-5. Sistema guarda solicitud presencial con código único
-6. Sistema genera PDF con:
+**Acceso y selección de tipo de tramitación**:
+1. Ciudadano accede mediante URL con código procedimiento + idAcciónTelemática=19
+2. Sistema omite proceso de autenticación
+3. Sistema presenta pantalla: "¿Cómo desea proceder con la tramitación?"
+   - Opción: "Para mí" (tramita para sí mismo)
+   - Opción: "Para otros" (tramita en representación)
+4. Ciudadano selecciona tipo de tramitación
+
+**Flujo de rellenado**:
+1. Ciudadano introduce manualmente datos de identificación (solicitante y representados si aplica)
+2. Sistema NO consulta RI ni RdA durante la introducción de datos
+3. Ciudadano cumplimenta formulario completo (pasos 1-5)
+4. Ciudadano aporta documentos que se almacenan en **Dokusi**
+5. Sistema NO solicita firma
+6. Sistema guarda solicitud presencial con código único
+7. Sistema genera PDF con:
    - Código QR integrado en el documento (servicio de Dokusi)
    - Datos de identificación de la solicitud presencial
    - Resumen de datos cumplimentados

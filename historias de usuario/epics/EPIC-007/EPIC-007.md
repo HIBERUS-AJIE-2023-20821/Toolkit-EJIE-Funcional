@@ -6,6 +6,8 @@ Permitir que el ciudadano inicie una solicitud presencial sin necesidad de auten
 ## Descripción funcional
 Las solicitudes presenciales permiten al ciudadano iniciar una tramitación telemática que será completada presencialmente en oficinas de la Administración. El ciudadano puede rellenar el formulario sin autenticarse, guardar la información, y obtener un PDF con código QR que identificará su solicitud.
 
+**Identificación de interesados**: Todos los datos de identificación de interesados (solicitante y representados) se introducen **manualmente mediante formulario**. El sistema **no consulta** el Registro de Interesados (RI) ni el Registro de Apoderamientos (RdA) en ningún momento durante el proceso.
+
 La solicitud presencial generada contiene todos los datos y documentos aportados por el ciudadano. Los documentos se almacenan en Dokusi y quedan relacionados con la solicitud. El código QR permite al tramitador recuperar esta información de forma inmediata al escanearla.
 
 El ciudadano accede al formulario con un tipo de presentación específico (tipoPresentación=19) que activa el modo presencial. La habilitación de esta modalidad para cada procedimiento se configura en el CCP (Catálogo de Configuración de Procedimientos). En este modo, el sistema no solicita firma electrónica ni permite el envío directo de la solicitud. En su lugar, al finalizar, genera un PDF con el código QR integrado y los datos de identificación de la solicitud presencial.
