@@ -665,6 +665,9 @@ La pantalla incluye tres niveles de controles interrelacionados:
 - **Sin firma electrónica**: No se solicita firma digital
 - **Identificación de interesados**: Introducción **manual mediante formulario**
 - **Sin consulta a registros**: NO se consulta Registro de Interesados (RI) ni Registro de Apoderamientos (RdA)
+- **Sin borradores**: NO se pueden guardar borradores recuperables
+- **Sin plantillas**: NO se pueden cargar ni guardar plantillas de solicitudes
+- **Interfaz simplificada**: No se muestran enlaces a borradores, plantillas ni funcionalidades relacionadas
 - **Configuración**: Habilitación por procedimiento en el CCP
 - **Terminología**: Se denomina "solicitud presencial" (NO "presolicitud")
 

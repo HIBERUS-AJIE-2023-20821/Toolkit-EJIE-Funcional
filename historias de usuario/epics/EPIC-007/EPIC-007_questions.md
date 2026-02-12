@@ -45,7 +45,7 @@ Cuando el ciudadano descarga "solo QR", ¿qué formato debe tener el archivo? ¿
 ### P9: Modificación de presolicitudes
 ¿Puede el ciudadano modificar una presolicitud después de haberla guardado? Si es así, ¿cómo accedería a ella sin autenticación?
 
-***Respuesta***: No. Este tipo de solicitudes no son recuperables. No tienen borradores ni plantillas.
+***Respuesta***: No. Este tipo de solicitudes no son recuperables. No tienen borradores ni plantillas. La información se mantiene solo temporalmente durante la sesión activa y se pierde al cerrar el navegador. La interfaz no muestra enlaces a "Guardar borrador", "Cargar plantilla", "Mis borradores" ni funcionalidades relacionadas.
 
 ### P10: Versionado de presolicitudes
 Si un ciudadano guarda varias presolicitudes del mismo procedimiento en diferentes sesiones, ¿todas quedan disponibles o la última sobrescribe las anteriores?

@@ -8,6 +8,12 @@ Las solicitudes presenciales permiten al ciudadano iniciar una tramitación tele
 
 **Identificación de interesados**: Todos los datos de identificación de interesados (solicitante y representados) se introducen **manualmente mediante formulario**. El sistema **no consulta** el Registro de Interesados (RI) ni el Registro de Apoderamientos (RdA) en ningún momento durante el proceso.
 
+**Restricciones funcionales**:
+- **No procede guardado de borradores**: Las solicitudes presenciales no pueden guardarse como borradores recuperables
+- **No procede uso de plantillas**: No se pueden cargar ni guardar plantillas de solicitudes
+- **Interfaz simplificada**: No se muestran enlaces a "Guardar borrador", "Cargar plantilla", "Mis borradores" ni funcionalidades relacionadas
+- **Guardado temporal**: La información se mantiene solo durante la sesión activa y se pierde al cerrar el navegador
+
 La solicitud presencial generada contiene todos los datos y documentos aportados por el ciudadano. Los documentos se almacenan en Dokusi y quedan relacionados con la solicitud. El código QR permite al tramitador recuperar esta información de forma inmediata al escanearla.
 
 El ciudadano accede al formulario con un tipo de presentación específico (tipoPresentación=19) que activa el modo presencial. La habilitación de esta modalidad para cada procedimiento se configura en el CCP (Catálogo de Configuración de Procedimientos). En este modo, el sistema no solicita firma electrónica ni permite el envío directo de la solicitud. En su lugar, al finalizar, genera un PDF con el código QR integrado y los datos de identificación de la solicitud presencial.
