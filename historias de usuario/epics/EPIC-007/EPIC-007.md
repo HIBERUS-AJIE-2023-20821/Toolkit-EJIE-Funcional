@@ -26,6 +26,7 @@ El QR contiene el código del servicio, los dígitos del procedimiento y el iden
 - [US-027](US-027.md) - Guardado de solicitud presencial y asignación de código
 - [US-028](US-028.md) - Generación de PDF con código QR integrado
 - [US-029](US-029.md) - Descarga y presentación de solicitud presencial
+- [US-037](US-037.md) - Restricción de personas jurídicas en solicitudes presenciales
 
 ---
 
