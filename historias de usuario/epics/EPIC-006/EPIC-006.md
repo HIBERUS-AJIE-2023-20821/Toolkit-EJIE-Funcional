@@ -53,3 +53,5 @@ La pantalla presenta una **pregunta global inicial** que facilita la decisión d
 - [US-016](US-016.md) - Presentación y visualización de autorizaciones
 - [US-017](US-017.md) - Gestión de oposiciones y autorizaciones por autorización
 - [US-018](US-018.md) - Sincronización, validación y registro de autorizaciones
+- [US-019](US-019.md) - Visualización del motivo de oposición en Resumen y PDF/HTML
+- [US-020](US-020.md) - Inclusión del motivo de oposición en el detailInfo del ejgvDocument
